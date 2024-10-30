@@ -1,0 +1,592 @@
+@font-face {
+	font-family: 'icoPaw';
+	src:url('fonts/icoPaw.eot?fd4tg');
+	src:url('fonts/icoPaw.eot?#iefixfd4tg') format('embedded-opentype'),
+	url('fonts/icoPaw.svg?fd4tg#icoPaw') format('svg'),
+		url('fonts/icoPaw.woff?fd4tg') format('woff'),
+		url('fonts/icoPaw.ttf?fd4tg') format('truetype');		
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icoPaw-"], [class*=" icoPaw-"] {
+	font-family: 'icoPaw';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
+	 display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+span[class^="icoPaw"]:before{display:block;}
+
+div[class^="lendpaw"]{
+  text-align:center;/*centers icon*/
+  margin:0 10px;
+  display: inline-block;
+  overflow:hidden;
+ }
+ div[class^="lendpaw"].alignright{float:right;}
+ div[class^="lendpaw"].alignleft{float:left;}
+ div[class^="lendpaw"].aligncenter{clear:both;}
+
+ div[class^="lendpaw"] a, div[class^="lendpaw"] a:hover{
+	 	cursor:pointer;
+	text-decoration:none;
+	color:inherit;
+ }
+ 
+ #tinymce div[class^="lendpaw"]{cursor:pointer;}
+ 
+/********SHAPES**********/
+.lendpawshape-square {-webkit-border-radius: 6px; -moz-border-radius: 6px;  border-radius: 6px;}
+.lendpawshape-circle {-webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px;}
+
+/********SIZES**********/
+.lendpawsize-xsmall {width: 16px;height: 16px;}/*16x16*/
+.lendpawsize-small {width: 32px;height: 32px;}/*32x32*/
+.lendpawsize-medium {width: 64px;height: 64px;}/*64x64*/
+.lendpawsize-large {width: 128px;height: 128px;}/*128x128*/
+.lendpawsize-xlarge {width: 256px;height: 256px;}/*300x300*/
+
+.lendpawsize-xsmall.alignright {margin-left: 50px!important;}/*16x16*/
+.lendpawsize-small.alignright {margin-left: 50px!important;}/*32x32*/
+.lendpawsize-medium.alignright {margin-left: 50px!important;}/*64x64*/
+.lendpawsize-large.alignright {margin-left: 50px!important;}/*128x128*/
+.lendpawsize-xlarge.alignright {margin-left: 50px!important;}/*300x300*/
+
+.lendpawsize-xsmall.alignleft {margin-right: 50px!important;}/*16x16*/
+.lendpawsize-small.alignleft {margin-right: 50px!important;}/*32x32*/
+.lendpawsize-medium.alignleft {margin-right: 50px!important;}/*64x64*/
+.lendpawsize-large.alignleft {margin-right: 50px!important;}/*128x128*/
+.lendpawsize-xlarge.alignleft {margin-right: 50px!important;}/*300x300*/
+
+.lendpawsize-xsmall span {  font-size: 13px; line-height: 16px;}/*16x16*/
+.lendpawsize-small span {  font-size: 24px; line-height: 32px;}/*32x32*/
+.lendpawsize-medium span {  font-size: 48px; line-height: 64px;}/*64x64*/
+.lendpawsize-large span {font-size: 105px;line-height: 128px;}/*128x128*/
+.lendpawsize-xlarge span {font-size: 230px;line-height: 256px;}/*256x256*/
+
+/**increase font to full size when fg color only**/
+div[class*="-fgset"].lendpawsize-xsmall span {font-size: 16px;}
+div[class*="-fgset"].lendpawsize-small span {font-size: 32px;}
+div[class*="-fgset"].lendpawsize-medium span {font-size: 64px;}
+div[class*="-fgset"].lendpawsize-large span {font-size: 128px;}
+div[class*="-fgset"].lendpawsize-xlarge span {font-size: 256px;}
+
+/**have font sizes be slightly smaller when on a rounded circle, so not to be cut off**/
+.lendpawshape-circle.lendpawsize-xsmall span {font-size: 15px;}
+.lendpawshape-circle.lendpawsize-small span {font-size: 21px;}
+.lendpawshape-circle.lendpawsize-medium span {font-size: 42px;}
+.lendpawshape-circle.lendpawsize-large span {font-size: 90px;}
+.lendpawshape-circle.lendpawsize-xlarge span {font-size: 220px;}
+
+/**extra large circle needs more radius**/
+.lendpawshape-circle.lendpawsize-xlarge{-webkit-border-radius: 200px; -moz-border-radius: 200px; border-radius: 200px;}
+/**extra small square needs less radius**/
+.lendpawshape-square.lendpawsize-xsmall{-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+
+.hoverme {cursor: pointer;}
+
+/***************************************GLYPHS********************************************************************/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.icoPaw-about:before {
+	content: "\e600";
+}
+.icoPaw-add:before {
+	content: "\e601";
+}
+.icoPaw-adopt:before {
+	content: "\e602";
+}
+.icoPaw-amazon:before {
+	content: "\e603";
+}
+.icoPaw-animals:before {
+	content: "\e604";
+}
+.icoPaw-announcements:before {
+	content: "\e605";
+}
+.icoPaw-application:before {
+	content: "\e606";
+}
+.icoPaw-bark1:before {
+	content: "\e607";
+}
+.icoPaw-bark2:before {
+	content: "\e608";
+}
+.icoPaw-bird1:before {
+	content: "\e609";
+}
+.icoPaw-bird2:before {
+	content: "\e60a";
+}
+.icoPaw-bottle-feed:before {
+	content: "\e60b";
+}
+.icoPaw-calendar:before {
+	content: "\e60c";
+}
+.icoPaw-cart:before {
+	content: "\e60d";
+}
+.icoPaw-cat1:before {
+	content: "\e60e";
+}
+.icoPaw-cat2:before {
+	content: "\e60f";
+}
+.icoPaw-cat-friendly:before {
+	content: "\e610";
+}
+.icoPaw-cat-play:before {
+	content: "\e611";
+}
+.icoPaw-cat-toy:before {
+	content: "\e612";
+}
+.icoPaw-cleaning-supplies:before {
+	content: "\e613";
+}
+.icoPaw-close:before {
+	content: "\e614";
+}
+.icoPaw-contact:before {
+	content: "\e615";
+}
+.icoPaw-contract:before {
+	content: "\e616";
+}
+.icoPaw-dog1:before {
+	content: "\e617";
+}
+.icoPaw-dog2:before {
+	content: "\e618";
+}
+.icoPaw-dog-friendly:before {
+	content: "\e619";
+}
+.icoPaw-dog-play:before {
+	content: "\e61a";
+}
+.icoPaw-dog-toy:before {
+	content: "\e61b";
+}
+.icoPaw-dog-walk:before {
+	content: "\e61c";
+}
+.icoPaw-donate:before {
+	content: "\e61d";
+}
+.icoPaw-down:before {
+	content: "\e61e";
+}
+.icoPaw-ebay:before {
+	content: "\e61f";
+}
+.icoPaw-etsy:before {
+	content: "\e620";
+}
+.icoPaw-evaluation-form:before {
+	content: "\e621";
+}
+.icoPaw-event:before {
+	content: "\e622";
+}
+.icoPaw-facebook:before {
+	content: "\e623";
+}
+.icoPaw-faqs:before {
+	content: "\e624";
+}
+.icoPaw-featured-animal:before {
+	content: "\e625";
+}
+.icoPaw-ferret1:before {
+	content: "\e626";
+}
+.icoPaw-ferret2:before {
+	content: "\e627";
+}
+.icoPaw-first:before {
+	content: "\e628";
+}
+.icoPaw-fish1:before {
+	content: "\e629";
+}
+.icoPaw-fish2:before {
+	content: "\e62a";
+}
+.icoPaw-flickr:before {
+	content: "\e62b";
+}
+.icoPaw-food:before {
+	content: "\e62c";
+}
+.icoPaw-foster:before {
+	content: "\e62d";
+}
+.icoPaw-found:before {
+	content: "\e62e";
+}
+.icoPaw-gender:before {
+	content: "\e62f";
+}
+.icoPaw-gift:before {
+	content: "\e630";
+}
+.icoPaw-goat1:before {
+	content: "\e631";
+}
+.icoPaw-goat2:before {
+	content: "\e632";
+}
+.icoPaw-google-plus:before {
+	content: "\e633";
+}
+.icoPaw-groom:before {
+	content: "\e634";
+}
+.icoPaw-hamster1:before {
+	content: "\e635";
+}
+.icoPaw-help:before {
+	content: "\e636";
+}
+.icoPaw-horse1:before {
+	content: "\e637";
+}
+.icoPaw-horse2:before {
+	content: "\e638";
+}
+.icoPaw-horse3:before {
+	content: "\e639";
+}
+.icoPaw-hurt:before {
+	content: "\e63a";
+}
+.icoPaw-info:before {
+	content: "\e63b";
+}
+.icoPaw-instagram:before {
+	content: "\e63c";
+}
+.icoPaw-kid-friendly:before {
+	content: "\e63d";
+}
+.icoPaw-kitten:before {
+	content: "\e63e";
+}
+.icoPaw-lamb:before {
+	content: "\e63f";
+}
+.icoPaw-last:before {
+	content: "\e640";
+}
+.icoPaw-latest-news:before {
+	content: "\e641";
+}
+.icoPaw-left:before {
+	content: "\e642";
+}
+.icoPaw-location:before {
+	content: "\e643";
+}
+.icoPaw-lost:before {
+	content: "\e644";
+}
+.icoPaw-medical:before {
+	content: "\e645";
+}
+.icoPaw-memorials:before {
+	content: "\e646";
+}
+.icoPaw-meow1:before {
+	content: "\e647";
+}
+.icoPaw-meow2:before {
+	content: "\e648";
+}
+.icoPaw-minus:before {
+	content: "\e649";
+}
+.icoPaw-mouse1:before {
+	content: "\e64a";
+}
+.icoPaw-mouse2:before {
+	content: "\e64b";
+}
+.icoPaw-newsletter:before {
+	content: "\e64c";
+}
+.icoPaw-next:before {
+	content: "\e64d";
+}
+.icoPaw-next-down:before {
+	content: "\e64e";
+}
+.icoPaw-paypal:before {
+	content: "\e64f";
+}
+.icoPaw-petfinder:before {
+	content: "\e650";
+}
+.icoPaw-photos:before {
+	content: "\e651";
+}
+.icoPaw-pig1:before {
+	content: "\e652";
+}
+.icoPaw-pig2:before {
+	content: "\e653";
+}
+.icoPaw-pig3:before {
+	content: "\e654";
+}
+.icoPaw-pinterest:before {
+	content: "\e655";
+}
+.icoPaw-previous:before {
+	content: "\e656";
+}
+.icoPaw-previous-up:before {
+	content: "\e657";
+}
+.icoPaw-print:before {
+	content: "\e658";
+}
+.icoPaw-puppy:before {
+	content: "\e659";
+}
+.icoPaw-questionnaire:before {
+	content: "\e65a";
+}
+.icoPaw-rabbit1:before {
+	content: "\e65b";
+}
+.icoPaw-refresh:before {
+	content: "\e65c";
+}
+.icoPaw-resources--tips:before {
+	content: "\e65d";
+}
+.icoPaw-right:before {
+	content: "\e65e";
+}
+.icoPaw-rss:before {
+	content: "\e65f";
+}
+.icoPaw-search:before {
+	content: "\e660";
+}
+.icoPaw-sheep1:before {
+	content: "\e661";
+}
+.icoPaw-sheep2:before {
+	content: "\e662";
+}
+.icoPaw-shop:before {
+	content: "\e663";
+}
+.icoPaw-shots:before {
+	content: "\e664";
+}
+.icoPaw-sick:before {
+	content: "\e665";
+}
+.icoPaw-spayed--neutered:before {
+	content: "\e666";
+}
+.icoPaw-sponsor:before {
+	content: "\e667";
+}
+.icoPaw-stories:before {
+	content: "\e668";
+}
+.icoPaw-surrender:before {
+	content: "\e669";
+}
+.icoPaw-train-dog:before {
+	content: "\e66a";
+}
+.icoPaw-treat:before {
+	content: "\e66b";
+}
+.icoPaw-twitter:before {
+	content: "\e66c";
+}
+.icoPaw-up:before {
+	content: "\e66d";
+}
+.icoPaw-urgent:before {
+	content: "\e66e";
+}
+.icoPaw-videos:before {
+	content: "\e66f";
+}
+.icoPaw-volunteer:before {
+	content: "\e670";
+}
+.icoPaw-water:before {
+	content: "\e671";
+}
+.icoPaw-wishlist:before {
+	content: "\e672";
+}
+.icoPaw-yahoo:before {
+	content: "\e673";
+}
+.icoPaw-youtube:before {
+	content: "\e674";
+}
+
+
+/***************************************COLORS********************************************************************/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/**white for all bgset**/
+div[class*="bgset"], div[class*="bgset"] a {color: #fff;}
+/**COLOR ON HOVER ONLY (for bgset)**/
+div[class*="bgset"].hoverme.coloronhover { background: #cccccc;}
+/**COLOR ON HOVER ONLY (for fgset)**/
+div[class*="fgset"].hoverme.coloronhover {color: #cccccc;}
+
+
+/**********************BACKGROUND COLORS*******************/
+.lendpawcolor-yellow-bgset, .lendpawcolor-yellow-bgset.hoverme.coloronhover:hover { background: #FFD700;}/**YELLOW**/
+.lendpawcolor-gold-bgset, .lendpawcolor-gold-bgset.hoverme.coloronhover:hover { background: #f9b700;}/**GOLD**/
+.lendpawcolor-light_orange-bgset, .lendpawcolor-light_orange-bgset.hoverme.coloronhover:hover { background: #f07901;}/**LIGHT ORANGE**/
+.lendpawcolor-orange-bgset, .lendpawcolor-orange-bgset.hoverme.coloronhover:hover { background: #ff4800;}/**ORANGE**/
+.lendpawcolor-red-bgset, .lendpawcolor-red-bgset.hoverme.coloronhover:hover { background: #e60003;}/**RED**/
+.lendpawcolor-dark_red-bgset, .lendpawcolor-dark_red-bgset.hoverme.coloronhover:hover { background: #b30006;}/**DARK RED**/
+.lendpawcolor-tan-bgset, .lendpawcolor-tan-bgset.hoverme.coloronhover:hover { background: #c0801e;}/**TAN**/
+.lendpawcolor-light_brown-bgset, .lendpawcolor-light_brown-bgset.hoverme.coloronhover:hover { background: #a4601f;}/**LIGHT BROWN**/
+.lendpawcolor-brown-bgset, .lendpawcolor-brown-bgset.hoverme.coloronhover:hover { background: #933907;}/**BROWN**/
+.lendpawcolor-dark_brown-bgset, .lendpawcolor-dark_brown-bgset.hoverme.coloronhover:hover { background: #4f250d;}/**DARK BROWN**/
+.lendpawcolor-dark_pink-bgset, .lendpawcolor-dark_pink-bgset.hoverme.coloronhover:hover { background: #e50e47;}/**DARK PINK**/
+.lendpawcolor-pink-bgset, .lendpawcolor-pink-bgset.hoverme.coloronhover:hover { background: #ff0387;}/**PINK**/
+.lendpawcolor-pink_purple-bgset, .lendpawcolor-pink_purple-bgset.hoverme.coloronhover:hover { background: #c80084;}/**PINK PURPLE**/
+.lendpawcolor-light_purple-bgset, .lendpawcolor-light_purple-bgset.hoverme.coloronhover:hover { background: #af05a7;}/**LIGHT PURPLE**/
+.lendpawcolor-purple-bgset, .lendpawcolor-purple-bgset.hoverme.coloronhover:hover { background: #6e0487;}/**PURPLE**/
+.lendpawcolor-dark_purple-bgset, .lendpawcolor-dark_purple-bgset.hoverme.coloronhover:hover { background: #5b004f;}/**DARK PURPLE**/
+.lendpawcolor-lightest_blue-bgset, .lendpawcolor-lightest_blue-bgset.hoverme.coloronhover:hover { background: #0082cd;}/**LIGHTEST BLUE**/
+.lendpawcolor-light_blue-bgset, .lendpawcolor-light_blue-bgset.hoverme.coloronhover:hover { background: #0059a9;}/**LIGHT BLUE**/
+.lendpawcolor-blue-bgset, .lendpawcolor-blue-bgset.hoverme.coloronhover:hover { background: #1a3793;}/**BLUE**/
+.lendpawcolor-dark_blue-bgset, .lendpawcolor-dark_blue-bgset.hoverme.coloronhover:hover { background: #011c53;}/**DARK BLUE**/
+.lendpawcolor-darkest_blue-bgset, .lendpawcolor-darkest_blue-bgset.hoverme.coloronhover:hover { background: #000429;}/**DARKEST BLUE**/
+.lendpawcolor-lime-bgset, .lendpawcolor-lime-bgset.hoverme.coloronhover:hover { background: #70b21a;}/**LIME**/
+.lendpawcolor-light_green-bgset, .lendpawcolor-light_green-bgset.hoverme.coloronhover:hover { background: #00a131;}/**LIGHT GREEN**/
+.lendpawcolor-green-bgset, .lendpawcolor-green-bgset.hoverme.coloronhover:hover { background: #01832d;}/**GREEN**/
+.lendpawcolor-dark_green-bgset, .lendpawcolor-dark_green-bgset.hoverme.coloronhover:hover { background: #004d2b;}/**DARK GREEN**/
+.lendpawcolor-darkest_green-bgset, .lendpawcolor-darkest_green-bgset.hoverme.coloronhover:hover { background: #012f08;}/**DARKEST GREEN**/
+.lendpawcolor-teal-bgset, .lendpawcolor-teal-bgset.hoverme.coloronhover:hover { background: #005e66;}/**BLUE GREY**/
+.lendpawcolor-light_grey-bgset, .lendpawcolor-light_grey-bgset.hoverme.coloronhover:hover { background: #575b67;}/**LIGHT GREY**/
+.lendpawcolor-dark_grey-bgset, .lendpawcolor-dark_grey-bgset.hoverme.coloronhover:hover { background: #37363b;}/**DARK GREY**/
+.lendpawcolor-black-bgset, .lendpawcolor-black-bgset.hoverme.coloronhover:hover { background: #000000;}/**BLACK**/
+
+/**********************BACKGROUND COLORS (HOVER)*******************/
+.lendpawcolor-yellow-bgset.hoverme:hover{ background: #ffdf33;}/**YELLOW**/
+.lendpawcolor-gold-bgset.hoverme:hover { background: #ffc82e;}/**GOLD**/
+.lendpawcolor-light_orange-bgset.hoverme:hover { background: #fe942a;}/**LIGHT ORANGE**/
+.lendpawcolor-orange-bgset.hoverme:hover { background: #ff6d33;}/**ORANGE**/
+.lendpawcolor-red-bgset.hoverme:hover{ background: #ff1f22;}/**RED**/
+.lendpawcolor-dark_red-bgset.hoverme:hover{ background: #eb0008;}/**DARK RED**/
+.lendpawcolor-tan-bgset.hoverme:hover { background: #df9c34;}/**TAN**/
+.lendpawcolor-light_brown-bgset.hoverme:hover { background: #d27b28;}/**LIGHT BROWN**/
+.lendpawcolor-brown-bgset.hoverme:hover { background: #c84d0a;}/**BROWN**/
+.lendpawcolor-dark_brown-bgset.hoverme:hover { background: #7f3b15;}/**DARK BROWN**/
+.lendpawcolor-dark_pink-bgset.hoverme:hover{ background: #f33567;}/**DARK PINK**/
+.lendpawcolor-pink-bgset.hoverme:hover { background: #ff38a0;}/**PINK**/
+.lendpawcolor-pink_purple-bgset.hoverme:hover { background: #ff00a8;}/**PINK PURPLE**/
+.lendpawcolor-light_purple-bgset.hoverme:hover { background: #e407da;}/**LIGHT PURPLE**/
+.lendpawcolor-purple-bgset.hoverme:hover { background: #9906bc;}/**PURPLE**/
+.lendpawcolor-dark_purple-bgset.hoverme:hover { background: #8f007c;}/**DARK PURPLE**/
+.lendpawcolor-lightest_blue-bgset.hoverme:hover { background: #05a4ff;}/**LIGHTEST BLUE**/
+.lendpawcolor-light_blue-bgset.hoverme:hover{ background: #0076e0;}/**LIGHT BLUE**/
+.lendpawcolor-blue-bgset.hoverme:hover { background: #2247bf;}/**BLUE**/
+.lendpawcolor-dark_blue-bgset.hoverme:hover{ background: #022e88;}/**DARK BLUE**/
+.lendpawcolor-darkest_blue-bgset.hoverme:hover{ background: #000961;}/**DARKEST BLUE**/
+.lendpawcolor-lime-bgset.hoverme:hover { background: #8cde21;}/**LIME**/
+.lendpawcolor-light_green-bgset.hoverme:hover { background: #00d641;}/**LIGHT GREEN**/
+.lendpawcolor-green-bgset.hoverme:hover{ background: #01b63f;}/**GREEN**/
+.lendpawcolor-dark_green-bgset.hoverme:hover { background: #00854a;}/**DARK GREEN**/
+.lendpawcolor-darkest_green-bgset.hoverme:hover { background: #026411;}/**DARKEST GREEN**/
+.lendpawcolor-teal-bgset.hoverme:hover { background: #008d99;}/**BLUE GREY**/
+.lendpawcolor-light_grey-bgset.hoverme:hover { background: #707585;}/**LIGHT GREY**/
+.lendpawcolor-dark_grey-bgset.hoverme:hover { background: #525058;}/**DARK GREY**/
+.lendpawcolor-black-bgset.hoverme:hover{ background: #1a1a1a;}/**BLACK**/
+
+/**********************FOREGROUND COLORS*******************/
+.lendpawcolor-yellow-fgset, .lendpawcolor-yellow-fgset.hoverme.coloronhover:hover { color: #FFD700;}/**YELLOW**/
+.lendpawcolor-gold-fgset, .lendpawcolor-gold-fgset.hoverme.coloronhover:hover { color: #f9b700;}/**GOLD**/
+.lendpawcolor-light_orange-fgset, .lendpawcolor-light_orange-fgset.hoverme.coloronhover:hover { color: #f07901;}/**LIGHT ORANGE**/
+.lendpawcolor-orange-fgset, .lendpawcolor-orange-fgset.hoverme.coloronhover:hover { color: #ff4800;}/**ORANGE**/
+.lendpawcolor-red-fgset, .lendpawcolor-red-fgset.hoverme.coloronhover:hover { color: #e60003;}/**RED**/
+.lendpawcolor-dark_red-fgset, .lendpawcolor-dark_red-fgset.hoverme.coloronhover:hover { color: #b30006;}/**DARK RED**/
+.lendpawcolor-tan-fgset, .lendpawcolor-tan-fgset.hoverme.coloronhover:hover { color: #c0801e;}/**TAN**/
+.lendpawcolor-light_brown-fgset, .lendpawcolor-light_brown-fgset.hoverme.coloronhover:hover { color: #a4601f;}/**LIGHT BROWN**/
+.lendpawcolor-brown-fgset, .lendpawcolor-brown-fgset.hoverme.coloronhover:hover { color: #933907;}/**BROWN**/
+.lendpawcolor-dark_brown-fgset, .lendpawcolor-dark_brown-fgset.hoverme.coloronhover:hover { color: #4f250d;}/**DARK BROWN**/
+.lendpawcolor-dark_pink-fgset, .lendpawcolor-dark_pink-fgset.hoverme.coloronhover:hover { color: #e50e47;}/**DARK PINK**/
+.lendpawcolor-pink-fgset, .lendpawcolor-pink-fgset.hoverme.coloronhover:hover { color: #ff0387;}/**PINK**/
+.lendpawcolor-pink_purple-fgset, .lendpawcolor-pink_purple-fgset.hoverme.coloronhover:hover { color: #c80084;}/**PINK PURPLE**/
+.lendpawcolor-light_purple-fgset, .lendpawcolor-light_purple-fgset.hoverme.coloronhover:hover { color: #af05a7;}/**LIGHT PURPLE**/
+.lendpawcolor-purple-fgset, .lendpawcolor-purple-fgset.hoverme.coloronhover:hover { color: #6e0487;}/**PURPLE**/
+.lendpawcolor-dark_purple-fgset, .lendpawcolor-dark_purple-fgset.hoverme.coloronhover:hover { color: #5b004f;}/**DARK PURPLE**/
+.lendpawcolor-lightest_blue-fgset, .lendpawcolor-lightest_blue-fgset.hoverme.coloronhover:hover { color: #0082cd;}/**LIGHTEST BLUE**/
+.lendpawcolor-light_blue-fgset, .lendpawcolor-light_blue-fgset.hoverme.coloronhover:hover { color: #0059a9;}/**LIGHT BLUE**/
+.lendpawcolor-blue-fgset, .lendpawcolor-blue-fgset.hoverme.coloronhover:hover { color: #1a3793;}/**BLUE**/
+.lendpawcolor-dark_blue-fgset, .lendpawcolor-dark_blue-fgset.hoverme.coloronhover:hover { color: #011c53;}/**DARK BLUE**/
+.lendpawcolor-darkest_blue-fgset, .lendpawcolor-darkest_blue-fgset.hoverme.coloronhover:hover { color: #000429;}/**DARKEST BLUE**/
+.lendpawcolor-lime-fgset, .lendpawcolor-lime-fgset.hoverme.coloronhover:hover { color: #70b21a;}/**LIME**/
+.lendpawcolor-light_green-fgset, .lendpawcolor-light_green-fgset.hoverme.coloronhover:hover { color: #00a131;}/**LIGHT GREEN**/
+.lendpawcolor-green-fgset, .lendpawcolor-green-fgset.hoverme.coloronhover:hover { color: #01832d;}/**GREEN**/
+.lendpawcolor-dark_green-fgset, .lendpawcolor-dark_green-fgset.hoverme.coloronhover:hover { color: #004d2b;}/**DARK GREEN**/
+.lendpawcolor-darkest_green-fgset, .lendpawcolor-darkest_green-fgset.hoverme.coloronhover:hover { color: #012f08;}/**DARKEST GREEN**/
+.lendpawcolor-teal-fgset, .lendpawcolor-teal-fgset.hoverme.coloronhover:hover { color: #005e66;}/**BLUE GREY**/
+.lendpawcolor-light_grey-fgset, .lendpawcolor-light_grey-fgset.hoverme.coloronhover:hover { color: #575b67;}/**LIGHT GREY**/
+.lendpawcolor-dark_grey-fgset, .lendpawcolor-dark_grey-fgset.hoverme.coloronhover:hover { color: #37363b;}/**DARK GREY**/
+.lendpawcolor-black-fgset, .lendpawcolor-black-fgset.hoverme.coloronhover:hover { color: #000000;}/**BLACK**/
+
+/**********************FOREGROUND COLORS (HOVER)*******************/
+.lendpawcolor-yellow-fgset.hoverme:hover{ color: #ffdf33;}/**YELLOW**/
+.lendpawcolor-gold-fgset.hoverme:hover { color: #ffc82e;}/**GOLD**/
+.lendpawcolor-light_orange-fgset.hoverme:hover { color: #fe942a;}/**LIGHT ORANGE**/
+.lendpawcolor-orange-fgset.hoverme:hover { color: #ff6d33;}/**ORANGE**/
+.lendpawcolor-red-fgset.hoverme:hover{ color: #ff1f22;}/**RED**/
+.lendpawcolor-dark_red-fgset.hoverme:hover{ color: #eb0008;}/**DARK RED**/
+.lendpawcolor-tan-fgset.hoverme:hover { color: #df9c34;}/**TAN**/
+.lendpawcolor-light_brown-fgset.hoverme:hover { color: #d27b28;}/**LIGHT BROWN**/
+.lendpawcolor-brown-fgset.hoverme:hover { color: #c84d0a;}/**BROWN**/
+.lendpawcolor-dark_brown-fgset.hoverme:hover { color: #7f3b15;}/**DARK BROWN**/
+.lendpawcolor-dark_pink-fgset.hoverme:hover{ color: #f33567;}/**DARK PINK**/
+.lendpawcolor-pink-fgset.hoverme:hover { color: #ff38a0;}/**PINK**/
+.lendpawcolor-pink_purple-fgset.hoverme:hover { color: #ff00a8;}/**PINK PURPLE**/
+.lendpawcolor-light_purple-fgset.hoverme:hover { color: #e407da;}/**LIGHT PURPLE**/
+.lendpawcolor-purple-fgset.hoverme:hover { color: #9906bc;}/**PURPLE**/
+.lendpawcolor-dark_purple-fgset.hoverme:hover { color: #8f007c;}/**DARK PURPLE**/
+.lendpawcolor-lightest_blue-fgset.hoverme:hover { color: #05a4ff;}/**LIGHTEST BLUE**/
+.lendpawcolor-light_blue-fgset.hoverme:hover{ color: #0076e0;}/**LIGHT BLUE**/
+.lendpawcolor-blue-fgset.hoverme:hover { color: #2247bf;}/**BLUE**/
+.lendpawcolor-dark_blue-fgset.hoverme:hover{ color: #022e88;}/**DARK BLUE**/
+.lendpawcolor-darkest_blue-fgset.hoverme:hover{ color: #000961;}/**DARKEST BLUE**/
+.lendpawcolor-lime-fgset.hoverme:hover { color: #8cde21;}/**LIME**/
+.lendpawcolor-light_green-fgset.hoverme:hover { color: #00d641;}/**LIGHT GREEN**/
+.lendpawcolor-green-fgset.hoverme:hover{ color: #01b63f;}/**GREEN**/
+.lendpawcolor-dark_green-fgset.hoverme:hover { color: #00854a;}/**DARK GREEN**/
+.lendpawcolor-darkest_green-fgset.hoverme:hover { color: #026411;}/**DARKEST GREEN**/
+.lendpawcolor-teal-fgset.hoverme:hover { color: #008d99;}/**BLUE GREY**/
+.lendpawcolor-light_grey-fgset.hoverme:hover { color: #707585;}/**LIGHT GREY**/
+.lendpawcolor-dark_grey-fgset.hoverme:hover { color: #525058;}/**DARK GREY**/
+.lendpawcolor-black-fgset.hoverme:hover{ color: #1a1a1a;}/**BLACK**/

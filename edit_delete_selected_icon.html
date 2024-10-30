@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!--inclue wp jquery-->
+  <script type = "text/javascript">
+  document.write('<script type="text/javascript" src="'+ window.parent.theWpThemeUrl +'"><\/script>');	
+</script>
+ <link rel="stylesheet" href="css/style-rows_spans.css">
+  <script src="js/edit_delete_selected_icon.js"></script>
+   <link rel="stylesheet" href="css/shuffle-styles.css">
+    <link rel="stylesheet" type="text/css" charset="utf-8" href="css/icoPaw.css">
+<title>Edit/Delete Icon</title>
+</head>
+<body>
+
+ <!-- Preloader Status-->
+<div id="preloader">
+  <div id="preloader-inner">  
+  	<div id="preloader-msg"></div>   
+    <div id="preloader-icon">&nbsp;</div>
+  </div>
+</div>
+ <div id="edit_delete-icon-section" class="row-fluid">
+<div id="popup-icon-holder" class="span3">
+      <div id="popup-icon-thumbnail"></div>
+</div>
+<div id="icon-link-section" class="span9">
+            <!--LINK-->
+            <div class="icon-option-subSection">            
+            <div class="icon-option-title">Link Url:</div>          
+            <input type="text" id="icon_input_link" placeholder="http://example.com" />
+            </div>
+            <!--TARGET (FOR LINK)-->
+            <div class="icon-option-subSection">
+            <div class="icon-option-title">Target:</div>
+             <input type="text" id="icon_input_target"/>
+            </div>          
+           
+            <!--GLYPH NAME-->
+            <div class="icon-option-subSection">
+            <div class="icon-option-title">Glyph Class:</div>  
+            <input type="text" id="icon_input_glyph" />
+            </div>
+            </div>
+      		
+            <div id="the_node_options">
+            <div class="row-fluid">
+			 <!--SIZES-->           
+            <div class="icon-option-section span7" id="icon-section-size">
+        		<div class="icon-option-title">Size:</div>
+          		  <ul id="url-icon-sizes">
+          			<li class="url-icon-xsmall" name="xsmall">16x16</li>
+            		<li class="url-icon-small" name="small">32x32</li>
+            		<li class="url-icon-medium" name="medium">64x64</li>
+            		<li class="url-icon-large" name="large">128x128</li>
+            		<li class="url-icon-xlarge" name="xlarge">256x256</li>
+          		  </ul>
+        	</div>
+           <!--COLOR SET-->      
+      	   <div class="icon-option-section span4" id="icon-section-type">
+           		<div class="icon-option-title">Type:</div>
+          		<ul id="url-icon-type">
+            		<li class="select-colored-bg" name="-bgset">Color BG</li>
+            		<li class="select-colored-fg" name="-fgset">Color FG</li>
+          </ul>
+           </div>
+          </div>
+          <div class="row-fluid">
+          <!--ALIGNMENT-->
+            <div class="icon-option-section-wide icon-option-section span7" id="icon-section-alignment">
+    			<div class="icon-option-title">Alignment:</div>           
+            	<ul id="url-icon-alignment">
+            	<li class="select-alignleft" name="alignleft">Left</li>
+            	<li class="select-aligncenter" name="aligncenter">Center</li>
+            	<li class="select-alignright" name="alignright">Right</li>
+            	<li class="select-alignnone" name="alignnone">None</li>
+          </ul>
+            </div>
+           <!--SHAPES-->
+           <div class="icon-option-section span4" id="icon-section-shape">
+        		<div class="icon-option-title">Shape:</div>          
+                <ul id="url-icon-shape">		
+            		    <li class="select-square-icon" name="square">Square</li>
+            			<li class="select-circle-icon" name="circle">Circle</li>
+                     </ul>          		
+        	</div>
+           </div>
+           
+           <div class="row-fluid">
+           
+            <!--COLORS-->
+            <div id="icon-section-color" class="icon-option-section span11">
+            <div class="icon-option-title">Color:</div>            
+          <ul id="url-icon-colors" class="span7">   
+          <div class="url-icon-colors-row"> 
+          	<li class="lendpawcolor-yellow-bgset select-colored-bg" name="yellow"></li>
+          	<li class="lendpawcolor-gold-bgset select-colored-bg" name="gold"></li>
+          	<li class="lendpawcolor-light_orange-bgset select-colored-bg" name="light_orange"></li>
+          	<li class="lendpawcolor-orange-bgset select-colored-bg" name="orange"></li>
+          	<li class="lendpawcolor-red-bgset select-colored-bg" name="red"></li>
+          	<li class="lendpawcolor-dark_red-bgset select-colored-bg" name="dark_red"></li>
+          	<li class="lendpawcolor-tan-bgset select-colored-bg" name="tan"></li>
+          	<li class="lendpawcolor-light_brown-bgset select-colored-bg" name="light_brown"></li>
+          	<li class="lendpawcolor-brown-bgset select-colored-bg" name="brown"></li>
+          	<li class="lendpawcolor-dark_brown-bgset select-colored-bg" name="dark_brown"></li>
+          </div> 
+          
+          <div class="url-icon-colors-row"> 
+          	<li class="lendpawcolor-dark_pink-bgset select-colored-bg" name="dark_pink"></li>
+          	<li class="lendpawcolor-pink-bgset select-colored-bg" name="pink"></li>
+          	<li class="lendpawcolor-pink_purple-bgset select-colored-bg" name="pink_purple"></li>
+          	<li class="lendpawcolor-light_purple-bgset select-colored-bg" name="light_purple"></li>
+          	<li class="lendpawcolor-purple-bgset select-colored-bg" name="purple"></li>
+          	<li class="lendpawcolor-dark_purple-bgset select-colored-bg" name="dark_purple"></li>
+          	<li class="lendpawcolor-lightest_blue-bgset select-colored-bg" name="lightest_blue"></li>
+          	<li class="lendpawcolor-light_blue-bgset select-colored-bg" name="light_blue"></li>
+          	<li class="lendpawcolor-blue-bgset select-colored-bg" name="blue"></li>
+            <li class="lendpawcolor-dark_blue-bgset select-colored-bg" name="dark_blue"></li>
+          </div>
+          
+          <div class="url-icon-colors-row">           	
+            <li class="lendpawcolor-darkest_blue-bgset select-colored-bg" name="darkest_blue"></li> 
+          	<li class="lendpawcolor-lime-bgset select-colored-bg" name="lime"></li>
+          	<li class="lendpawcolor-light_green-bgset select-colored-bg" name="light_green"></li>
+          	<li class="lendpawcolor-green-bgset select-colored-bg" name="green"></li>
+          	<li class="lendpawcolor-dark_green-bgset select-colored-bg" name="dark_green"></li>
+          	<li class="lendpawcolor-darkest_green-bgset select-colored-bg" name="darkest_green"></li>
+          	<li class="lendpawcolor-teal-bgset select-colored-bg" name="teal"></li>
+          	<li class="lendpawcolor-light_grey-bgset select-colored-bg" name="light_grey"></li>
+          	<li class="lendpawcolor-dark_grey-bgset select-colored-bg" name="dark_grey"></li>
+          	<li class="lendpawcolor-black-bgset select-colored-bg" name="black"></li>
+          </div> 
+         </ul>
+          
+         <div class="span4">
+           <!--HOVER STYLES-->
+              <!--HOVER EFFECT-->
+          	<div id="icon-section-hoverlink">
+            <input type="checkbox" id="disable-hover">
+            	<span class="icon-option-title">Disable Hover</span>            	
+          	</div>
+
+          	<!--ONLY SHOW COLOR ON HOVER-->
+           	<div id="icon-section-colorhoverlink">
+            <input type="checkbox" id="color-onlyhover">
+            	<span class="icon-option-title">Show Color on Hover</span>            	
+          	</div>
+          </div>
+          </div>
+          
+         </div>
+         </div><!--end the_node_options-->
+           
+           <div id="url-popup-topbtns">  
+        		<ul class="filter-options btn-group">
+                <li class="btn" id="icon_ok_btn"><span class="lendpawcolor-blue-bgset hoverme">Save Changes</span></li>
+                <li class="btn" id="deleteNodeBtn"><span class="lendpawcolor-dark_grey-bgset hoverme">Delete Icon</span></li>
+         		</ul>
+           </div>
+        </div><!--end edit/delete section-->
+</body>
+</html>

@@ -1,0 +1,27 @@
+i.mce-i-icoPaw_toolbar_icon {
+	background-image: url('../images/icoPaw_toolbar_icon.png');
+}
+
+/* TINYMCE CUSTOMISATION */
+
+.mce-window {
+    max-width: 90% !important;
+}
+
+
+
+.mce-panel {
+    max-width:100% !important
+}
+
+.mce-tabs {
+    max-width: 100% !important;
+}
+
+.mce-container-body {
+    max-width:100% !important;
+}
+
+.mce-container {
+    max-width:100% !important;
+}
